@@ -1,9 +1,10 @@
 # Installation
 
-1. Go to your project directory (where `checkify` was cloned), go to `checkify` (where `ocr` and `data` packages located).
-2. Download `roberta-base.zip` from [here](https://zenodo.org/record/4599830/files/roberta-base.zip) and extract it to `models` package.
-3. Download all the neccesary libraries from `toml` file.
-4. Run `preparation.sh` (make sure that you have `nltk` downloaded).
+1. Go to your project directory (where this repository is cloned)
+2. Go to `checkify` package (where `ocr` and `data` packages located).
+3. Download `roberta-base.zip` from [here](https://zenodo.org/record/4599830/files/roberta-base.zip) and extract it to `models` package.
+4. Download all the neccesary libraries from `toml` file.
+5. Run `preparation.sh` (make sure that you have `nltk` downloaded).
 
 `python .\main.py check-contract --path=test_file.pdf`
 
