@@ -19,3 +19,5 @@ This program adds OCR layer upon [robera-base model](https://zenodo.org/record/4
 For further fine-tuning, new data can be annotated using [SQuAD format](https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v2.0.json). Code for training can be found in [the original repository](https://github.com/TheAtticusProject/cuadTheAtticusProject).
 
 [eBrevia](https://ebrevia.com/) can be used for data annotation as stated [here](https://huggingface.co/datasets/cuad), under `Annotations` section.
+
+Code for prediction was taken from [this repository](https://github.com/marshmellow77/cuad-demo/blob/main/scripts/predict.py).
