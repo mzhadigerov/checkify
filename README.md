@@ -8,7 +8,7 @@
 6. Download all the neccesary libraries from `toml` file.
 7. Run `preparation.sh` (make sure that you have `nltk` downloaded).
 
-# Testing
+# Test
 
 `python .\main.py check-contract --path=test_file.pdf`
 
